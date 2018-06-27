@@ -1,24 +1,45 @@
-# README
+# Teste
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Faça o teste com calma, não há uma única resposta certa; o importante é demonstrar domínio sobre as habilidades requeridas. Não há um limite de tempo rígido, mas demonstre saber gerenciar as prioridades de acordo com quanto tempo já passou.
 
-Things you may want to cover:
+## Setup
 
-* Ruby version
+```
+git clone https://github.com/oddlyfunctional/interview-test.git
+cd interview-test
+gem install bundler
+bundle install
+```
 
-* System dependencies
+### Para rodar o servidor
 
-* Configuration
+```
+bundle exec rails s
+```
 
-* Database creation
+### Para rodar os testes de back-end
 
-* Database initialization
+```
+bundle exec rspec
+```
 
-* How to run the test suite
+### Para rodar os testes de front-end
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+yarn test
+```
 
-* Deployment instructions
+## Dicas
 
-* ...
+- Comunique-se frequentemente, explique sua linha de raciocínio e, caso veja algo errado, mesmo que decida não corrigir por conta do tempo, explique o porquê de estar errado e o que você faria para consertar.
+- Sinta-se livre para refatorar, pode que facilite realizar algumas das tarefas.
+- Caso veja oportunidades de otimização pode aproveitar.
+- Caso sinta necessidade, pode adicionar quaisquer testes que quiser.
+- Evite bibliotecas adicionais, demonstre que você é capaz de realizar as tarefas pedidas.
+- Para as chamadas AJAX, use a [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API).
+
+## Tarefas
+
+- [ ] Aplicar CSS (mockup em `ROOT/interview-test.png`).
+- [ ] Construir uma API para calcular novos atributos dos items a cada tick e conectá-la ao front-end.
+- [ ] Adicionar "Slice of Bread" aos tipos de itens (testes para o novo cálculo já estão escritos, mas pendentes, no arquivo `ROOT/spec/services/item_spec.rb`).

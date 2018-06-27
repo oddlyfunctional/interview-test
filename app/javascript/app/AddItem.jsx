@@ -8,7 +8,6 @@ const defaultState = {
 
 const types = [
   'Gorgonzola cheese',
-  'Slice of Bread',
   'Tomato',
   'Grapefruit juice',
   'Gold ring',
