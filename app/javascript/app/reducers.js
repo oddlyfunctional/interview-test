@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
 
-const items = (state = [], action) => {
+export const items = (state = [], action) => {
   switch (action.type) {
     case 'ADD_ITEM':
       return [
@@ -12,7 +12,7 @@ const items = (state = [], action) => {
   }
 };
 
-const daysElapsed = (state = 0, action) => {
+export const daysElapsed = (state = 0, action) => {
   switch (action.type) {
     case 'TICK':
       return state + 1;
