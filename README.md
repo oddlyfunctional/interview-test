@@ -40,7 +40,9 @@ yarn test
 
 ## Tarefas
 
-- [ ] Aplicar CSS (mockup em `ROOT/interview-test.png`).
 - [ ] Escrever teste para o reducer `items` quando recebe uma action `'ADD_ITEM'`.
 - [ ] Construir uma API para calcular novos atributos dos items a cada tick e conectá-la ao front-end.
 - [ ] Adicionar "Slice of Bread" aos tipos de itens (testes para o novo cálculo já estão escritos, mas pendentes, no arquivo `ROOT/spec/services/item_spec.rb`).
+- [ ] Aplicar CSS (mockup em `ROOT/interview-test.png`).
+
+![mockup](https://github.com/oddlyfunctional/interview-test/blob/master/interview-test.png)
